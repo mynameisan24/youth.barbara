@@ -121,8 +121,17 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentFilter = "*";
     const products = [
         {
+            name: "Християнська Мафія",
+            img: "https://i.postimg.cc/RVBBNDyb/depositphotos-92827118-stock-illustration-mafia-man-silhouette-crime-red.webp",
+            category: "Завершено",
+            tags: ["УГКЦ Св. Варвари", "Відень"],
+            date: "22 січня 2026",
+            linkDetails: "https://www.instagram.com/p/DT8KW-Bja2W/",
+            filter: "2026",
+        },
+        {
             name: "Свята Вечеря",
-            img: "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/618839089_17922679251233481_6438598966211476798_n.webp?stp=dst-webp_s1080x1080&_nc_cat=102&ig_cache_key=MzgxMzQ1NzM1MDkwMDYzMjU3OA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=0TexsB4SE3EQ7kNvwG_MlQE&_nc_oc=AdmqzMet8Solp02g80Qp76BLQpDgfgkg831JpuvUA4tzmlaPpb8u4JWaNAsFD79jTW_M6yAm6sHDvXQ7v8wSzo-R&_nc_ad=z-m&_nc_cid=1089&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=-vSYWPCmX4ZvEnXROmG9mw&oh=00_AfrnO79Kj-ubbHw2ipz83Foqtq0iZVxSakvC9yswblL7mg&oe=6975DACF",
+            img: "https://i.postimg.cc/wxP1Zgt8/618839089-17922679251233481-6438598966211476798-n.webp",
             category: "Завершено",
             tags: ["УГКЦ Св. Варвари", "Відень"],
             date: "18 січня 2026",
@@ -149,7 +158,7 @@ document.addEventListener("DOMContentLoaded", function () {
         },
         {
             name: "Молодіжний табір 2025",
-            img: "https://scontent-vie1-1.cdninstagram.com/v/t51.82787-15/517923073_17932592025077405_7003657409983561170_n.webp?stp=dst-webp_s1080x1080&_nc_cat=105&ig_cache_key=MzY3MzAxNDczMDA3MTkxMjUwNA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=E71AenO5TywQ7kNvwGQ6IQJ&_nc_oc=AdmSepRjWmK6t7-5Kb80HF-oU8WfSPRf5O_CzDfPruc0oc26WYb85p0IZbbBF1KVy1pruVGy99sDd_vlIOzxA856&_nc_ad=z-m&_nc_cid=1089&_nc_zt=23&_nc_ht=scontent-vie1-1.cdninstagram.com&_nc_gid=8YcYoiXk9PVcviNL0HSKlQ&oh=00_AfpcaXmseJ6aBi9X7UAVq53cgLk9mT3HitgzED2hC831Zw&oe=6975EC4C",
+            img: "https://i.postimg.cc/W3kB4G7K/518233688-17932592073077405-5778004867731930759-n.webp",
             category: "Завершено",
             tags: ["УГКЦ Св. Варвари", "Відень"],
             date: "9 липня 2025",
@@ -375,18 +384,7 @@ document.addEventListener("DOMContentLoaded", function () {
 document.addEventListener("DOMContentLoaded", function () {
     const products = [
         {
-            name: "Соня",
-            img: "https://i.postimg.cc/6qY2Ft88/photo-2026-01-19-22-56-15.jpg",
-            position: "Натхненниця спільноти",
-            social: [
-                {
-                    icon: "bi bi-instagram",
-                    link: "https://www.instagram.com/sof212s/tagged/",
-                },
-            ],
-        },
-        {
-            name: "Karpiy",
+            name: "Ольга",
             img: "https://i.postimg.cc/4NxhV70L/photo-2026-01-19-22-56-14-(3).jpg",
             position: "Координатор зустрічей",
             social: [
@@ -400,68 +398,57 @@ document.addEventListener("DOMContentLoaded", function () {
             name: "Павло",
             img: "https://i.postimg.cc/Gt2GL4wQ/photo-2026-01-19-23-10-01.jpg",
             position: "Творець простору",
-            social: [
-                {
-                    icon: "bi bi-instagram",
-                    link: "https://www.instagram.com/horvat_pavlo/",
-                },
-            ],
+            social: [],
+        },
+        {
+            name: "Соня",
+            img: "https://i.postimg.cc/6qY2Ft88/photo-2026-01-19-22-56-15.jpg",
+            position: "Натхненниця спільноти",
+            social: [],
         },
         {
             name: "Тарас",
-            img: "https://i.postimg.cc/7ZCGQvwD/photo-2026-01-19-22-56-14-(2).jpg",
-            position: "Куратор спільноти",
-            social: [
-                {
-                    icon: "bi bi-instagram",
-                    link: "https://www.instagram.com/liutak_/",
-                },
-            ],
+            img: "https://i.postimg.cc/MTfnKFN2/photo-2026-01-29-22-37-38.jpg",
+            position: "Позитив спільноти",
+            social: [],
         },
         {
             name: "Олеся",
-            img: "https://i.postimg.cc/G2R42HYr/photo-2026-01-19-22-56-14.jpg",
+            img: "https://i.postimg.cc/WpJZ2dc4/photo-2026-01-29-22-37-37.jpg",
             position: "Генераторка ідей",
-            social: [
-                {
-                    icon: "bi bi-instagram",
-                    link: "https://www.instagram.com/mor_olesya_/",
-                },
-            ],
+            social: [],
         },
-     
+        {
+            name: "Роман",
+            img: "https://i.postimg.cc/zDWys4TF/photo-2026-01-29-22-52-06.jpg",
+            position: "Опора для всіх",
+            social: [],
+        },
         {
             name: "Тетяна",
             img: "https://i.postimg.cc/1Xj70gpD/photo-2026-01-19-23-24-10.jpg",
             position: "Людина змін",
-            social: [
-                {
-                    icon: "bi bi-instagram",
-                    link: "https://www.instagram.com/tetianabeyko03/",
-                },
-            ],
+            social: [],
         },
+        {
+            name: "Влад",
+            img: "https://i.postimg.cc/YqKWjttb/photo-2026-01-29-22-37-37-(2).jpg",
+            position: "Той, хто завжди допоможе",
+            social: [],
+        },
+      
         {
             name: "Ольга",
             img: "https://i.postimg.cc/W16KC4j1/531205117-18520092664011598-4888488768238131273-n.jpg",
             position: "Підтримка і розвиток",
-            social: [
-                {
-                    icon: "bi bi-instagram",
-                    link: "https://postimg.cc/yDxvSskM/7695167d",
-                },
-            ],
+            social: [],
         },
+       
         {
             name: "Валентин",
             img: "https://i.postimg.cc/y6ybCykj/photo-2026-01-22-00-01-11.jpg",
-            position: "Серце спільноти ",
-            social: [
-                {
-                    icon: "bi bi-instagram",
-                    link: "https://postimg.cc/yDxvSskM/7695167d",
-                },
-            ],
+            position: "Серце спільноти",
+            social: [],
         },
     ];
 
